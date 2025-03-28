@@ -49,3 +49,28 @@ nav {
   background: transparent;
   cursor: pointer;
 }
+
+.loader {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
+
+.loading-icon {
+  color: teal;
+  font-size: 2rem;
+  animation: animate 1.5s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}

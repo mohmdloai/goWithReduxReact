@@ -5,6 +5,7 @@ import { store } from './store/store'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 import Footer from './components/Footer'
+import './index.css'
 
 const App = () => {
   return (
